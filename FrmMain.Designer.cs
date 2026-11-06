@@ -63,17 +63,19 @@
             // 
             // cbxFieldOfStudy
             // 
+            cbxFieldOfStudy.DropDownStyle = ComboBoxStyle.DropDownList;
             cbxFieldOfStudy.FormattingEnabled = true;
-            cbxFieldOfStudy.Location = new Point(216, 202);
+            cbxFieldOfStudy.Items.AddRange(new object[] { "informatika", "rendészet", "elektrotechnika" });
+            cbxFieldOfStudy.Location = new Point(208, 202);
             cbxFieldOfStudy.Name = "cbxFieldOfStudy";
-            cbxFieldOfStudy.Size = new Size(156, 33);
+            cbxFieldOfStudy.Size = new Size(187, 33);
             cbxFieldOfStudy.TabIndex = 3;
             // 
             // txtName
             // 
-            txtName.Location = new Point(185, 60);
+            txtName.Location = new Point(143, 60);
             txtName.Name = "txtName";
-            txtName.Size = new Size(187, 32);
+            txtName.Size = new Size(252, 32);
             txtName.TabIndex = 1;
             // 
             // lsxStudents
@@ -97,7 +99,7 @@
             // 
             // nudAge
             // 
-            nudAge.Location = new Point(298, 132);
+            nudAge.Location = new Point(321, 132);
             nudAge.Name = "nudAge";
             nudAge.Size = new Size(74, 32);
             nudAge.TabIndex = 2;
